@@ -16,7 +16,7 @@ export const Baterai = () => {
     <main>
       <section className="max-w-7xl mx-auto py-7">
         <div className="flex justify-evenly flex-wrap other1:justify-evenly">
-            <div className="max-w-md m-4 max-h-fit bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-md m-4 max-h-fit bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-200">
                 <img src={mesin1} />
                 <h1 className="ml-3 text-lg font-semibold text-gray-900 dark:text-white">Baterai Mati</h1>
                     <ul className="ml-3 max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
@@ -42,7 +42,7 @@ export const Baterai = () => {
                     </ul>
             </div>
 
-            <div className="max-w-md m-4 max-h-fit bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-md m-4 max-h-fit bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-200">
                 <img src={sekring} />
                 <h1 className="ml-3 text-lg font-semibold text-gray-900 dark:text-white">Sekring Putus dan Penanganannya</h1>
                     <ul className="ml-3 max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">

@@ -14,9 +14,9 @@ export const Mesin = () => {
     <main>
       <section className="max-w-7xl mx-auto py-7">
         <div className="flex justify-evenly flex-wrap other1:justify-evenly">
-            <div className="max-w-md m-4 max-h-fit bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-md m-4 max-h-fit bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-300">
                 <img src={mesin1} />
-                <img className="mt-4 max-w-none" src={mesin2} />
+                <img className="mt-4" src={mesin2} />
                 <h1 className="ml-3 text-lg font-semibold text-gray-900 dark:text-white">Menghidupkan mesin baik mesin yang panas maupun dingin</h1>
                     <ul className="ml-3 max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
                         <li>Putar kunci kontak ke posisi ON</li>
